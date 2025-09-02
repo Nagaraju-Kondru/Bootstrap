@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="container m-5">
+        <h2>Sample Form</h2>
+        <form class="bg-light rounded-5">
+            <br>
+            <!-- email input -->
+        <div class="m-3">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter Email">
+        </div>
+
+        <!-- Password input -->
+        <div class="m-3">
+            <label for="psd">Password:</label>
+            <input type="password" class="form-control" id="psd" placeholder="Enter Password">
+        </div>
+
+        <!-- check box -->
+         <div class="m-3">
+        <div class="form-check">
+            <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="remember">Remember
+            </label>
+        </div>
+        </div>
+
+        <!-- Full Name Sur Name -->
+         <div class="row m-3">
+            <div class="col">
+                <label>Full Name:</label>
+                <input type="text" class="form-control" placeholder="Enter Full Name">
+            </div>
+            <div class="col">
+                <label>Sur Name:</label>
+                <input type="text" class="form-control" placeholder="Enter Sur Name">
+            </div>
+         </div>
+
+        <!-- text area -->
+         <div class="m-3">
+            <label for="comment">Enter Comments:</label>
+            <textarea class="form-control" row="5" id="comment" name="text"></textarea> 
+         </div>
+
+         <!--  button  -->
+        <div class="m-3">
+            <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+        <br>
+    </form>
+    <br>
+    <br>
+
+    <!-- Form Control Size -->
+     <code>Form Control Size</code>
+    <form class="bg-light  rounded-5">
+        <br>
+        <div class="m-3">
+       <label>Large Input:</label>
+       <input type="text" placeholder="Large text" class="form-control form-control-lg"> 
+       </div>
+       <div class="m-3">
+        <label>Medium Input:</label>
+       <input type="text" placeholder="Medium text" class="form-control form-control"> 
+       </div>
+       <div class="m-3">
+        <label>Small Input:</label>
+       <input type="text" placeholder="Small text" class="form-control form-control-sm"> 
+       </div>
+       <br>
+    </form>
+    <br>
+    <br>
+
+    <!-- Disabled and Readonly -->
+     <code>Disabled and Readonly</code>
+     <form class="bg-light  rounded-5">
+        <br>
+        <div class="m-3">
+            <input type="text" placeholder="Normal Input" class="form-control">
+        </div>
+        <div class="m-3">
+            <input type="text" placeholder="ReadOnly Input" class="form-control" readonly>
+        </div>
+        <div class="m-3">
+            <input type="text" placeholder="Disabled Input" class="form-control" disabled>
+        </div>
+        <br>
+     </form>
+     <br><br>
+
+
+<!-- Color Picker -->
+    <div class="m-3">
+        <form>
+            <code>Color picker</code>
+            <br>
+            <input type="color" class="form-control form-control-color" value="#CCCCCC" title="Set Color">
+        </form>
+    </div>
+    </div>
+</body>
+</html>
